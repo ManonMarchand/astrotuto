@@ -1,2 +1,7 @@
 # Astrotuto
-Short tuto for importing fit images
+
+Short tuto for astrophysics VP in Fribourg Uni
+
+## Photometry
+
+## Spectroscopy
