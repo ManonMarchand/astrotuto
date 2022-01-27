@@ -10,7 +10,9 @@ To come : Short tuto for data analysis using python  for the astrophysics VP in 
 
 ### Queries from Simbad : 
 
-This query gives all objects within 16 arcmin (0.26°) around the center of M92 where the B and V data exists. 
+- https://simbad.u-strasbg.fr/simbad/sim-tap
+- tap is a lot like SQL
+- this example query gives all objects within 16 arcmin (0.26°) around the center of M92 where the B and V data exists. 
 
 ```sql:
 SELECT B, V, 
