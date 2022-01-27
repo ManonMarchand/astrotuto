@@ -27,6 +27,8 @@ AND (V IS NOT NULL)
 ORDER BY dist
 ```
 
+- note : B is for blue and V for visual (which happens to be green)
+
 
 ## Spectroscopy
 
