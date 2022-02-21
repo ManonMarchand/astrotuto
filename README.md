@@ -33,3 +33,9 @@ ORDER BY dist
 ## Spectroscopy
 
 ## Image analysis
+
+Python libraries : 
+- scikit image
+- astropy
+- numpy
+- scipy
