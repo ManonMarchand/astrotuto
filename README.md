@@ -6,7 +6,8 @@ To come : Short tuto for data analysis using python  for the astrophysics VP in 
 
 ### Ressources
 
-- evolution of an old cluster https://esahubble.org/videos/heic1211a/
+- evolution of a cluster https://esahubble.org/videos/heic1211a/
+- information on galactic globular clusters https://physics.mcmaster.ca/~harris/mwgc.dat
 
 ### Queries from Simbad : 
 
