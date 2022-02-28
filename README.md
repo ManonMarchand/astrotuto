@@ -9,6 +9,28 @@ To come : Short tuto for data analysis using python  for the astrophysics VP in 
 - evolution of a cluster https://esahubble.org/videos/heic1211a/
 - information on galactic globular clusters https://physics.mcmaster.ca/~harris/mwgc.dat
 
+### Find reference stars in the field of view
+
+Here is the example for the globular cluster M5. 
+
+A famous star just close to the cluster is 5 Serpens. You'll need to find its AAVSO UID. To do so, go on : https://www.aavso.org/vsx/index.php?view=search.top and search this star star by its usual name, here *5 Ser*. Be sure to include the non-varaible and suspects in you search. 
+
+![image](https://user-images.githubusercontent.com/16650466/156001860-2448dac7-14e8-4169-8744-05aef07ee072.png)
+
+Now, you'll want to plot a photometric chart around this star. On the aavso website, https://www.aavso.org/ , use the *pick a star* tool 
+
+![image](https://user-images.githubusercontent.com/16650466/156002327-73f173ed-1bc4-413d-b198-fbcd35f4661e.png)
+
+And press create a finder chart.
+
+![image](https://user-images.githubusercontent.com/16650466/156002728-c17bf854-b156-4034-8a12-7aa5839f84fe.png)
+
+We can clearly find M5 in here and some stars have labels. They are non-variable and calibrated stars that can be used for your H-R diagram. By pressing the "photometry table for this chart" link, you'll obtain the B-V and V values for the stars corresponding to the labels on the chart. 
+
+![image](https://user-images.githubusercontent.com/16650466/156003327-3f276ef7-2219-4496-8606-b0460a2d4997.png)
+
+
+
 ### Queries from Simbad : 
 
 - https://simbad.u-strasbg.fr/simbad/sim-tap
