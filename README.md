@@ -55,6 +55,10 @@ ORDER BY dist
 
 ## Spectroscopy
 
+## Radial intensity of luminosity in galaxies
+
+http://spiff.rit.edu/classes/phys443/lectures/gal_1/petro/petro.html
+
 ## Image analysis
 
 Python libraries : 
@@ -62,3 +66,7 @@ Python libraries :
 - astropy
 - numpy
 - scipy
+
+## Open a fit file 
+
+--> astropy
