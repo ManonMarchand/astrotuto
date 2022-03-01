@@ -2,6 +2,12 @@
 
 To come : Short tuto for data analysis using python  for the astrophysics VP in Fribourg Uni
 
+## Get astro papers and data
+
+https://simbad.u-strasbg.fr/simbad/
+
+https://ui.adsabs.harvard.edu/classic-form
+
 ## Photometry
 
 ### Ressources
