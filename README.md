@@ -1,6 +1,10 @@
 # Astrotuto
 
-To come : Short tuto for data analysis using python  for the astrophysics VP in Fribourg Uni
+For this lecture, you'll fing those python libraries useful : 
+- astropy
+- numpy
+- scipy
+- glob
 
 ## Get astro papers and data
 
@@ -65,14 +69,5 @@ ORDER BY dist
 
 http://spiff.rit.edu/classes/phys443/lectures/gal_1/petro/petro.html
 
-## Image analysis
 
-Python libraries : 
-- scikit image
-- astropy
-- numpy
-- scipy
 
-## Open a fit file 
-
---> astropy
