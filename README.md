@@ -1,7 +1,7 @@
 # Astrotuto
 
 For this lecture, you'll fing those python libraries useful : 
-- astropy
+- astropy --> our 
 - numpy
 - scipy
 - glob
