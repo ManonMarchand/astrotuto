@@ -1,6 +1,6 @@
 # Astrotuto
 
-For this lecture, you'll fing those python libraries useful : 
+For this lecture, you'll find those python libraries useful : 
 - astropy --> our 
 - numpy
 - scipy
