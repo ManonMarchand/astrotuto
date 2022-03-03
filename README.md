@@ -1,7 +1,7 @@
 # Astrotuto
 
 For this lecture, you'll find those python libraries useful : 
-- astropy --> our 
+- astropy
 - numpy
 - scipy
 - glob
@@ -68,6 +68,10 @@ ORDER BY dist
 ## Radial intensity of luminosity in galaxies
 
 http://spiff.rit.edu/classes/phys443/lectures/gal_1/petro/petro.html
+
+## Possible projects ?
+
+https://oro.open.ac.uk/69186/1/69186.pdf
 
 
 
