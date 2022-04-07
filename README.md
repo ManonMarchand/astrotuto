@@ -1,18 +1,33 @@
 # Astrotuto
 
-For this lecture, you'll find those python libraries useful : 
-- astropy
-- scipy
+For this lecture, you'll analyse data using python. Don't hesitate to come to my office if you're not familiar with it or if you encounter struggles to install it on your machine. 
+My advice is to use notebooks for image analysis.
 
 # Table of contents
-* [Files manipulation](#files-manipulation)
+
+## Basics of astro data manipulation
+
 * [Find your pictures](#find-your-pictures)
 * [Open a fit file](#open-a-fit-file)
 * [Get a lit of all images](#get-a-list-of-all-images)
 * [Look at one image](#look-at-one-image)
 * [Plot an histogram](#plot-an-histogram)
 
-# Files manipulation
+## Bibliography
+
+* [Example query for astro sql on Simbad](#queries-from-simbad)
+* [Where to get astro papers and data](#get-astro-papers-and-data)
+
+
+## Specific informations for different projects
+
+* [Photometry](#photometry)
+* [Spectroscopy](#spectroscopy)
+
+---------------------
+
+# Data manipulation
+
 
 ## Find your pictures
 
@@ -109,6 +124,27 @@ https://simbad.u-strasbg.fr/simbad/
 
 https://ui.adsabs.harvard.edu/classic-form
 
+## Queries from Simbad
+
+- https://simbad.u-strasbg.fr/simbad/sim-tap
+- tap is a lot like SQL
+- this example query gives all objects within 16 arcmin (0.26°) around the center of M92 where the B and V data exists. 
+
+```sql:
+SELECT B, V, 
+       main_id, ra, dec, 
+       distance(POINT('ICRS', ra, dec), point('ICRS',259.2807916666667, 43.13594444444444)) as dist 
+FROM allfluxes 
+JOIN ident USING(oidref) 
+JOIN basic on allfluxes.oidref = basic.oid
+WHERE (CONTAINS(POINT('ICRS', ra, dec), CIRCLE('ICRS', 259.2807916666667, 43.13594444444444, 0.26666666666666666)) = 1) 
+AND (B IS NOT NULL) 
+AND (V IS NOT NULL)
+ORDER BY dist
+```
+
+- note : B is for blue and V for visual (which happens to be green)
+
 ## Photometry
 
 ### Ressources
@@ -138,26 +174,7 @@ We can clearly find M5 in here and some stars have labels. They are non-variable
 
 
 
-### Queries from Simbad : 
 
-- https://simbad.u-strasbg.fr/simbad/sim-tap
-- tap is a lot like SQL
-- this example query gives all objects within 16 arcmin (0.26°) around the center of M92 where the B and V data exists. 
-
-```sql:
-SELECT B, V, 
-       main_id, ra, dec, 
-       distance(POINT('ICRS', ra, dec), point('ICRS',259.2807916666667, 43.13594444444444)) as dist 
-FROM allfluxes 
-JOIN ident USING(oidref) 
-JOIN basic on allfluxes.oidref = basic.oid
-WHERE (CONTAINS(POINT('ICRS', ra, dec), CIRCLE('ICRS', 259.2807916666667, 43.13594444444444, 0.26666666666666666)) = 1) 
-AND (B IS NOT NULL) 
-AND (V IS NOT NULL)
-ORDER BY dist
-```
-
-- note : B is for blue and V for visual (which happens to be green)
 
 
 ## Spectroscopy
