@@ -151,7 +151,8 @@ ORDER BY dist
 
 - evolution of a cluster https://esahubble.org/videos/heic1211a/
 - information on galactic globular clusters https://physics.mcmaster.ca/~harris/mwgc.dat
-
+- extremely cool jupyter notebooks https://github.com/AllenDowney/AstronomicalData
+ 
 ### Find reference stars in the field of view
 
 Here is the example for the globular cluster M5. 
