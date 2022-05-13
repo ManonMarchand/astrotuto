@@ -152,6 +152,10 @@ ORDER BY dist
 - evolution of a cluster https://esahubble.org/videos/heic1211a/
 - information on galactic globular clusters https://physics.mcmaster.ca/~harris/mwgc.dat
 - extremely cool jupyter notebooks https://github.com/AllenDowney/AstronomicalData
+- tool to look at clusters (and way more other informations) https://simbad.u-strasbg.fr/simbad/sim-basic?Ident=M13&submit=SIMBAD+search 
+
+![image](https://user-images.githubusercontent.com/16650466/168270902-7dc3551a-75e9-4d21-bc51-692f16eb2f6d.png)
+
  
 ### Find reference stars in the field of view
 
