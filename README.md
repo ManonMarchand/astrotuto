@@ -115,8 +115,7 @@ print('max :', np.max(img))
 Here we have way more information : most of the noise in around 1400 while a very few pixels have a value around 2100 (this is what stretches the scale here). Those high value pixels are most likely dead pixels of the CCD camera that will always stay white. This artefact will disapear when the darks will be substracted from the light frames.
 
 
-
-
+## Photometry
 
 ## Get astro papers and data
 
@@ -144,8 +143,6 @@ ORDER BY dist
 ```
 
 - note : B is for blue and V for visual (which happens to be green)
-
-## Photometry
 
 ### Ressources
 
