@@ -181,6 +181,17 @@ We can clearly find M5 in here and some stars have labels. They are non-variable
 
 ## Spectroscopy
 
+- user guide for the Lhires Spectrometer 
+
+https://www.shelyak.com/wp-content/uploads/DC0004A-Lhires-III-User-Guide-English-1.pdf
+
+![image](https://user-images.githubusercontent.com/16650466/168273195-d12c8da0-5b15-4d92-981f-2dba1c460965.png)
+![image](https://user-images.githubusercontent.com/16650466/168273403-2f9ba1a1-3ce3-40ef-a403-d4335343b437.png)
+
+- tuto pour le traitement de spectres avec ISIS http://www.astrosurf.com/buil/isis/guide_lhires/tuto1.htm
+
+- spectre du Néon http://www.astrophoto.at/spectrum/Reference/ArNe.htm
+
 ## Radial intensity of luminosity in galaxies
 
 http://spiff.rit.edu/classes/phys443/lectures/gal_1/petro/petro.html
