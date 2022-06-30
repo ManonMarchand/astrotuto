@@ -1,6 +1,6 @@
 # Astrotuto
 
-For this lecture, you'll analyse data using python. Don't hesitate to come to my office if you're not familiar with it or if you encounter struggles to install it on your machine. 
+Here, you'll analyse data using python. Don't hesitate to come to my office if you're not familiar with it and/or if you encounter struggle to install it on your machine. 
 My advice is to use notebooks for image analysis.
 
 # Table of contents
@@ -22,6 +22,10 @@ My advice is to use notebooks for image analysis.
 ## Specific informations for different projects
 
 * [Photometry](#photometry)
+  - [Queries from Simbad](## Queries from Simbad)
+  - [Ressources](### Ressources)
+  - [Find reference stars in the field of view](### Find reference stars in the field of view)
+  - [What's a magnitude](## What's a magnitude ?)
 * [Spectroscopy](#spectroscopy)
 
 ---------------------
