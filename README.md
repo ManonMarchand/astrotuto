@@ -175,8 +175,20 @@ We can clearly find M5 in here and some stars have labels. They are non-variable
 ![image](https://user-images.githubusercontent.com/16650466/156003327-3f276ef7-2219-4496-8606-b0460a2d4997.png)
 
 
+## What's a magnitude ?
+
+Each star in your pictures have a different aspect depending on their brightness. Here in pink a bright star and in green a fianter one : 
 
 
+![image](https://user-images.githubusercontent.com/16650466/176698747-d1ac85de-0121-48b7-9878-7f341400344c.png)
+
+Once this is fitted by a two-dimentional Gaussian, the apparent luminosity $I$ is the integral of the Gaussian for each star. To obtain the absolute magnitude from there, a useful relation is the following : 
+
+$m = m_\mathrm{ref} - 2.5 \mathrm{log} \left ( \frac{I}{I_\mathrm{ref}} \right )$
+
+where $m_\mathrm{ref}$ is the reference magnitude of one known star obtained either by looking at litterature or by following the precedent paragraph of this tutorial. The $2.5$ factor comes from the definition of the absolute magnitude (that you should absolutely check and understand, otherwise come talk to me). $I$ and $I_\mathrm{ref}$ are calculated from your own measurement. 
+
+You will get more precise results by using more reference stars in the field of view.
 
 
 ## Spectroscopy
