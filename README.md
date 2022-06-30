@@ -22,10 +22,10 @@ My advice is to use notebooks for image analysis.
 ## Specific informations for different projects
 
 * [Photometry](#photometry)
-  - [Queries from Simbad](## Queries from Simbad)
-  - [Ressources](### Ressources)
-  - [Find reference stars in the field of view](### Find reference stars in the field of view)
-  - [What's a magnitude](## What's a magnitude ?)
+  - [Queries from Simbad]
+  - [Ressources]
+  - [Find reference stars in the field of view]
+  - [What's a magnitude]
 * [Spectroscopy](#spectroscopy)
 
 ---------------------
