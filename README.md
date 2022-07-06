@@ -178,6 +178,8 @@ We can clearly find M5 in here and some stars have labels. They are non-variable
 
 ![image](https://user-images.githubusercontent.com/16650466/156003327-3f276ef7-2219-4496-8606-b0460a2d4997.png)
 
+It's also possible to use wikisky.org and check pictures of your object
+
 
 ## What's a magnitude ?
 
